@@ -273,6 +273,12 @@
  */
 - (void)hideKeyboard:(BOOL)animated;
 
+/**
+ * 
+ * Set toolbar to bottom layout constraint
+ */
+- (void)setToolbarBottomConstraintValue:(CGFloat)constraintValue animated:(BOOL)animated;
+
 #pragma mark - Methods requiring super
 
 - (void)viewDidLoad NS_REQUIRES_SUPER;
